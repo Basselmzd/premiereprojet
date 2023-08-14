@@ -1,0 +1,85 @@
+/* Réinitialisation des marges et des rembourrages */
+body, h1, h2, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles pour le header */
+header {
+    background-color: rgba(0, 0, 0, 0.635);
+    color: #fff;
+    text-align: center;
+    padding: 2em 0;
+}
+
+/* Styles pour les sections */
+section {
+    margin: 2em auto;
+    padding: 1.5em;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style pour l'image de profil */
+.profile-pic img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Styles pour les liens sociaux */
+.social-links ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+/* Réagencement pour les appareils mobiles */
+@media screen and (max-width: 600px) {
+    section {
+        padding: 1em;
+    }
+}
+
+/* Styles pour la section contenant le logo */
+.logo {
+    text-align: right; /* right  l'image si nécessaire */
+}
+
+/* Styles pour l'image du logo */
+.logo img {
+    width: 70px; /* Largeur souhaitée en pixels */
+    height: auto; /* Garder le ratio hauteur/largeur */
+}
+
+/* Styles pour la section contenant le logo */
+.logo {
+    display: flex;
+    justify-content: center; /* Centrer horizontalement */
+    align-items: center; /* Centrer verticalement */
+    height: 10vh; /* Utilisez 100% de la hauteur de la fenêtre */
+    background-color: #f0f0f0; /* Juste pour montrer la section */
+}
+
+/* Styles pour l'image du logo */
+.logo img {
+    max-width: 100%; /* Ajuste la largeur de l'image pour s'adapter à la section */
+    height: auto; /* Garder le ratio hauteur/largeur */
+}
